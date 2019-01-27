@@ -1,11 +1,4 @@
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1>Here we go!!!!</h1>
-        <a href="contact">
-            Contact us to learn more
-        </a>
-    </body>
-</html>
+@extends('layout', ['title'=> 'Home'])
+@section('content')
+    <h1>My first Website</h1>
+@endsection
